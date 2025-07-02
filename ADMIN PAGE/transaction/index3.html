@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class=".wrapper">
+    <table align="center" id="data_table"   cellspacing="5" border="5">
+    
+        <h2><a href="">TRANSACTION LOGS</a></h2>
+    <tr><th>NUM</th><th>USER ID</th><th>TRANSACTION ID</th><th>TRANSACTION TYPE</th><th>STARTING TIME AND DATE</th><th>END TIME AND DATE</th><th colspan="2">ACTION</th></tr>
+
+<tr id="row1">
+    <td id="num_row1">1</td>
+    <td id="transaction_row1">19003591300</td>
+    <td id="transID_row1">1231312321</td>
+    <td id="transtype_row1">Sending Requirements</td>
+    <td id="start_row1">5:15pm / 10/21/23</td>
+    <td id="end_row1">Still in process</td>
+
+    <td>
+       <button> <input type="button" id="edit_button1" value="edit" class="edit" onclick="edit_row('1')"></button>
+        <input type="button" id="save_button1" value="save" class="save" onclick="save_row('1')">
+        <input type="button" id="delete_button1" value="delete" class="delete" onclick="delete_row('1')">
+    </td>
+    </tr>
+
+    <tr id="row2">
+        <td id="num_row2">2</td>
+        <td id="transaction_row2">19003591304</td>
+        <td id="transID_row2">5638973689</td>
+        <td id="transtype_row2">Sending Requirements</td>
+        <td id="start_row2">3:18pm / 10/21/23</td>
+        <td id="end_row2">Still in process</td>
+    
+        <td>
+           <button> <input type="button" id="edit_button2" value="edit" class="edit" onclick="edit_row('2')"></button>
+            <input type="button" id="save_button2" value="save" class="save" onclick="save_row('2')">
+            <input type="button" id="delete_button2" value="delete" class="delete" onclick="delete_row('2')">
+        </td>
+        </tr>
+
+        <tr id="row3">
+            <td id="num_row3">3</td>
+            <td id="transaction_row3">19003591543</td>
+            <td id="transID_row3">5637521275</td>
+            <td id="transtype_row3">Adopt</td>
+            <td id="start_row3">10:24am / 10/15/23</td>
+            <td id="end_row3">1:24  pm / 10/17/23</td>
+        
+            <td>
+               <button> <input type="button" id="edit_button3" value="edit" class="edit" onclick="edit_row('3')"></button>
+                <input type="button" id="save_button3" value="save" class="save" onclick="save_row('3')">
+                <input type="button" id="delete_button3" value="delete" class="delete" onclick="delete_row('3')">
+            </td>
+            </tr>
+
+            <tr id="row4">
+                <td id="num_row4">4</td>
+                <td id="transaction_row4">19003591850</td>
+                <td id="transID_row4">1231312854</td>
+                <td id="transtype_row4">Inquire</td>
+                <td id="start_row4">2:19pm / 10/15/23</td>
+                <td id="end_row4">11:19am / 10/16/23</td>
+            
+                <td>
+                   <button> <input type="button" id="edit_button4" value="edit" class="edit" onclick="edit_row('4')" ></button>
+                    <input type="button" id="save_button4" value="save" class="save" onclick="save_row('4')">
+                    <input type="button" id="delete_button4" value="delete" class="delete" onclick="delete_row('4')">
+                </td>
+                </tr>
+
+                <tr id="row5">
+                    <td id="num_row5">5</td>
+                    <td id="transaction_row5">18954583568</td>
+                    <td id="transID_row5">4520544204</td>
+                    <td id="transtype_row5">Inquire</td>
+                    <td id="start_row5">9:49am / 10/13/23</td>
+                    <td id="end_row5">1:49pm / 10/14/23</td>
+                
+                    <td>
+                       <button> <input type="button" id="edit_button5" value="edit" class="edit" onclick="edit_row('5')"></button>
+                        <input type="button" id="save_button5" value="save" class="save" onclick="save_row('5')">
+                        <input type="button" id="delete_button5" value="delete" class="delete" onclick="delete_row('5')">
+                    </td>
+                    </tr>
+
+                    <tr id="row6">
+                        <td id="num_row6">6</td>
+                        <td id="transaction_row6">18002546878</td>
+                        <td id="transID_row6">4453452563</td>
+                        <td id="transtype_row6">Adopt</td>
+                        <td id="start_row6">3:17pm / 10/12/23</td>
+                        <td id="end_row6">4:17pm / 10/18/23</td>
+                    
+                        <td>
+                           <button> <input type="button" id="edit_button6" value="edit" class="edit" onclick="edit_row('6')"></button>
+                            <input type="button" id="save_button6" value="save" class="save" onclick="save_row('6')">
+                            <input type="button" id="delete_button6" value="delete" class="delete" onclick="delete_row('6')">
+                        </td>
+                        </tr>
+
+                        <tr id="row7">
+                            <td id="num_row7">7</td>
+                            <td id="transaction_row7">18002547865</td>
+                            <td id="transID_row7">4525875285</td>
+                            <td id="transtype_row7">Adopt</td>
+                            <td id="start_row7">4:22pm / 10/12/23</td>
+                            <td id="end_row7">4:22pm / 10/16/23</td>
+                        
+                            <td>
+                               <button> <input type="button" id="edit_button7" value="edit" class="edit" onclick="edit_row('7')"></button>
+                                <input type="button" id="save_button7" value="save" class="save" onclick="save_row('7')">
+                                <input type="button" id="delete_button7" value="delete" class="delete" onclick="delete_row('7')">
+                            </td>
+                            </tr>
+
+                            <tr id="row8">
+                                <td id="num_row8">8</td>
+                                <td id="transaction_row8">18002546655</td>
+                                <td id="transID_row8">7527210527</td>
+                                <td id="transtype_row8">Adopt</td>
+                                <td id="start_row8">2:15pm / 10/09/23</td>
+                                <td id="end_row8">1:15pm / 10/13/23</td>
+                            
+                                <td>
+                                   <button> <input type="button" id="edit_button8" value="edit" class="edit" onclick="edit_row('8')"></button>
+                                    <input type="button" id="save_button8" value="save" class="save" onclick="save_row('8')">
+                                    <input type="button" id="delete_button8" value="delete" class="delete" onclick="delete_row('8')">
+                                </td>
+                                </tr>
+
+                                <tr id="row9">
+                                    <td id="num_row9">9</td>
+                                    <td id="transaction_row9">18002546456</td>
+                                    <td id="transID_row9">7527527577</td>
+                                    <td id="transtype_row9">Adopt</td>
+                                    <td id="start_row9">1:18pm / 10/08/23</td>
+                                    <td id="end_row9">11:18am / 10/16/23</td>
+                                
+                                    <td>
+                                       <button> <input type="button" id="edit_button9" value="edit" class="edit" onclick="edit_row('9')"></button>
+                                        <input type="button" id="save_button9" value="save" class="save" onclick="save_row('9')">
+                                        <input type="button" id="delete_button9" value="delete" class="delete" onclick="delete_row('9')">
+                                    </td>
+                                    </tr>
+
+                                    
+                                <tr id="row10">
+                                    <td id="num_row10">10</td>
+                                    <td id="transaction_row10">19003591301</td>
+                                    <td id="transID_row10">4534523754</td>
+                                    <td id="transtype_row10">Inquire</td>
+                                    <td id="start_row10">10:46am / 10/08/23</td>
+                                    <td id="end_row10">9:46am / 10/09/23</td>
+                                
+                                    <td>
+                                       <button> <input type="button" id="edit_button10" value="edit" class="edit" onclick="edit_row('10')"></button>
+                                        <input type="button" id="save_button10" value="save" class="save" onclick="save_row('10')">
+                                        <input type="button" id="delete_button10" value="delete" class="delete" onclick="delete_row('10')">
+                                    </td>
+                                    </tr>
+
+<td><input type="text" id="new_num"></td>
+<td><input type="text" id="new_transaction"></td>
+<td><input type="text" id="new_transID"></td>
+<td><input type="text" id="new_transtype"></td>
+<td><input type="text" id="new_start"></td>
+<td><input type="text" id="new_end"></td>
+
+<td><input type="button" id="add_button" class="add" onclick="add_row()" value="Add row"></td>
+   
+</table>
+</div>
+
+<script src="script2.js"></script>
+
+</body>
+</html>

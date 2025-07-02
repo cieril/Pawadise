@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px; 
+}
+
+.body{
+    position: relative;
+    background: #f1e090;
+}
+
+
+.button1 { 
+    background-color: #1eca60;
+    border-radius: 5px;
+    margin-left: 730px;
+    margin-top: -5px;
+    padding: 10px;
+}
+
+.button1:hover {
+    background-color: aliceblue;
+}
+
+#box1{
+    background-color: #e6cc77;
+    width: 842px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table th{
+    background-color: lightgreen;
+}
+
+.table, th, td {
+   border: 1px solid;
+}
+
+table{
+    margin-top: 10px;
+}
+
+th{
+    background: rgb(99, 20, 20);
+    color: white;
+    position: relative;
+    padding: 15px;
+}
+
+.b1 {
+    
+    background-color: darkgreen;
+    border-radius: 5px; 
+    color: #000000;
+}
+
+.b1:hover {
+    background-color: azure;
+}
+
+.b2 {
+    background-color: rgb(161, 33, 33);
+    border-radius: 5px;
+    color: #000000;
+}
+
+.b2:hover {
+    background-color: azure;
+}
+
+.button2 { 
+    background-color: #1eca60;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 685px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.button2:hover {
+    background-color: aliceblue;
+}
+
+#box2{
+    background-color: #e6cc77;
+    width: 791px;
+    height: 330px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+#box2 .h3{
+    margin-top: -100px;
+}
+
+.table, th, td {
+   border: 1px solid;
+}
+
+.table {
+    position: relative;
+    border-collapse: separate;
+    margin-top: 10px;
+    width: 120%;
+}
+
+.th, td {
+    padding: 15px;
+  }
+
+.th{
+    position: relative;
+    padding: 15px;
+}
+
+.b1uu {
+    background-color: darkgreen;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.b1uu:hover {
+    background-color: azure;
+}
+
+.b2du {
+    background-color: rgb(161, 33, 33);
+    border-radius: 5px;
+    color: #000000;
+}
+
+.b2du:hover {
+    background-color: azure;
+}

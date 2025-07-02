@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["Element", "Pets", { role: "style" } ],
+        ["Sept", 12, "#DADDB1"],
+        ["Oct", 10, "#FF6969"],
+        ["Nov", 5, "#FFFBAC"],
+        ["Dec", 15, "#FCBAAD"]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "Vaccinated pets",
+        width: 600,
+        height: 400,
+        bar: {groupWidth: "95%"},
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+      chart.draw(view, options);
+  }
+  </script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Manila', 16],
+        ['Quezon City',  5],
+        ['Bulacan',  12],
+        ['Pendings', 13],
+        ['Caloocan',  20]
+      ]);
+
+      var options = {
+        title: 'Areas',
+        is3D: true,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
+    }
+  </script>
+<body>
+
+  <a href="chart2.html"> 
+    <button style="float: top-left;"> Vaccinated pets </button>
+    </a>
+<a href="chart.html"> 
+        <button style="float:left;"> Arrived pets </button>
+    </a> 
+<a href="pet_data.html"> 
+        <button style="float:left;"> Pets Data </button>
+    </a>    
+    <div id="piechart_3d" style="width:600px; height:500px; float: right;"></div>
+    <div id="columnchart_values" style="width: 550px; height: 300px; float: left;"></div>
+    
+   
+</body>
+</html>

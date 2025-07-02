@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Admin Panel</title>
+</head>
+<body>
+        <div class="side-menu">
+        <div class="brand-name">
+            
+        </div>
+    <div>
+        <div class="side-menu-user">
+            <img src="images/profile2.jpg" alt="">
+            <div>
+                <h3>Angelica O. Soles</h3>
+                <span><u>angelicaosoles@gmail.com</u></span>
+            </div>
+        </div>
+    </div>
+        <ul>
+            <li><img src="images/Picture2.png" alt="">&nbsp; <a href="" >DASHBOARD</a></li>
+            <li><img src="images/Picture6.png" alt="">&nbsp; <a href="./transaction/index3.html" >REPORTS</a></li>
+            <li><img src="images/Picture4.png" alt="">&nbsp; <a href="./Monitoring/chart.html" >MONITORING</a></li>
+            <li><img src="images/Picture5.png" alt="">&nbsp; <a href="" >HELPDESK</a></li>
+            <li><img src="images/Picture3.png" alt="">&nbsp; <a href="./userandadmincreations/userandadmincreations/mngadmin.html" >USER CREATION</a></li>
+        </ul>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <h1>ADMIN</h1>  
+        <div class="finance_wrapper">
+            <img class="finance_icon" src="images/finance_icon.jpg" alt="">
+            <a class="finance" href=""> Finance </a>
+        </div>
+        <div class="action_wrapper">
+            <img class="bulb_icon" src="images/bulb_icon.png" alt="">
+            <a class="action" href=""> Action </a> 
+        </div> 
+            <div class="notif_wrapper">
+               <a href=""><img class="notif_icon" src="images/notif.png" alt=""></a> 
+            </div>
+            <div class="profile_wrapper">
+                <a href=""><img class="profile_icon" src="images/profile.png" alt=""></a>
+            </div>
+        </div>
+        <div class="menu_wrapper">
+            <a href=""><img class="menu_icon" src="images/menu.png" alt=""></a>
+        </div>
+    </div>
+    
+    <div class="container">
+      <div action="" class="search-top-bar">
+          <input type="text" placeholder="Search something..." name="q">
+          <button type="submit"><img src="images/search.png"></button>
+      </div>
+    </div>
+    <div class="main">
+        <div class="chart">
+            <canvas id="barchart" width="550" height="700"></canvas>
+        </div>
+        <div class="chart">
+            <canvas id="doughnut" width="600" height="500"></canvas>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="chart1.js"></script>
+    <script src="chart2.js"></script>
+   
+    <div class="boxes">
+        <div class="box" id="box1"></IMG><h1>46</h1>
+            <p>NEW USERS</p>
+            </div>
+            <div class="box" id="box2"><h1>53</h1>
+            <p>USERS ONLINE</p>
+            </div>
+            <div class="box" id="box3"><h1>47</h1>
+            <p>PETS ADOPTED</p>
+            </div>
+            <div class="box" id="box4"><h1>₱20,180</h1>
+            <p>DONATIONS</p>
+            </div>
+    </div>
+
+</body>
+</html>

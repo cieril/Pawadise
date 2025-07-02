@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class=".wrapper">
+    <table align="center" id="data_table"   cellspacing="5" border="5">
+        <a href="chart2.html"> 
+            <button style="float: top-left;"> Vaccinated pets </button>
+            </a>
+        <a href="chart.html"> 
+                <button style="float:left;"> Arrived pets </button>
+            </a> 
+        <a href="pet_data.html"> 
+                <button style="float:left;"> Pets Data </button>
+            </a>     
+        <h2><a href="">Pets Data</a></h2>
+    <tr><th>Name</th><th>Breed</th><th>Age</th><th>Gender</th><th>Vaccination_stats</th><th>State</th><th colspan="2">ACTION</th></tr>
+
+<tr id="row1">
+    <td id="num_row1">1. Sana (cat)</td>
+    <td id="transaction_row1">Maine coon</td>
+    <td id="transID_row1">1 Year old</td>
+    <td id="transtype_row1">Female</td>
+    <td id="start_row1">Not yet Vaccinated</td>
+    <td id="end_row1">Adopted</td>
+
+    <td>
+       <button><input type="button" id="edit_button1" value="edit" class="edit" onclick="edit_row('1')"></button> 
+        <input type="button" id="save_button1" value="save" class="save" onclick="save_row('1')">
+        <input type="button" id="delete_button1" value="delete" class="delete" onclick="delete_row('1')">
+    </td>
+    </tr>
+
+    <tr id="row2">
+        <td id="num_row2">2. Myka (cat)</td>
+        <td id="transaction_row2">Domestic Shorthair
+        </td>
+        <td id="transID_row2">2
+Years old        </td>
+        <td id="transtype_row2">Female
+        </td>
+        <td id="start_row2">Not yet Vaccinated
+        </td>
+        <td id="end_row2">Processing</td>
+    
+        <td>
+            <button><input type="button" id="edit_button2" value="edit" class="edit" onclick="edit_row('2')"></button>
+            <input type="button" id="save_button2" value="save" class="save" onclick="save_row('2')">
+            <input type="button" id="delete_button2" value="delete" class="delete" onclick="delete_row('2')">
+        </td>
+        </tr>
+
+        <tr id="row3">
+            <td id="num_row3">3. Luna (Cat)</td>
+            <td id="transaction_row3">Persian Cat</td>
+            <td id="transID_row3">4
+                Years old 
+            </td>
+            <td id="transtype_row3">  Male         </td>
+            <td id="start_row3"> Vaccinated
+            </td>
+            <td id="end_row3">Available</td>
+        
+            <td>
+                <button><input type="button" id="edit_button3" value="edit" class="edit" onclick="edit_row('3')"></button>
+                <input type="button" id="save_button3" value="save" class="save" onclick="save_row('3')">
+                <input type="button" id="delete_button3" value="delete" class="delete" onclick="delete_row('3')">
+            </td>
+            </tr>
+
+            <tr id="row4">
+                <td id="num_row4">4. Milo (Cat)</td>
+                <td id="transaction_row4">American Bobtail
+                </td>
+                <td id="transID_row4">1 Year old</td>
+                <td id="transtype_row4">Male
+                </td>
+                <td id="start_row4">Vaccinated</td>
+                <td id="end_row4">Deseased</td>
+            
+                <td>
+                    <button><input type="button" id="edit_button4" value="edit" class="edit" onclick="edit_row('4')"    ></button>
+                    <input type="button" id="save_button4" value="save" class="save" onclick="save_row('4')">
+                    <input type="button" id="delete_button4" value="delete" class="delete" onclick="delete_row('4')">
+                </td>
+                </tr>
+
+                <tr id="row5">
+                    <td id="num_row5">5. Shadow (Cat)</td>
+                    <td id="transaction_row5">Siamese
+                    </td>
+                    <td id="transID_row5">1
+Years old                    </td>
+                    <td id="transtype_row5">Female</td>
+                    <td id="start_row5">Vaccinated</td>
+                    <td id="end_row5">Available</td>
+                
+                    <td>
+                        <button><input type="button" id="edit_button5" value="edit" class="edit" onclick="edit_row('5')"></button>
+                        <input type="button" id="save_button5" value="save" class="save" onclick="save_row('5')">
+                        <input type="button" id="delete_button5" value="delete" class="delete" onclick="delete_row('5')">
+                    </td>
+                    </tr>
+
+                    <tr id="row6">
+                        <td id="num_row6">6. Brad(Dog)                        </td>
+                        <td id="transaction_row6">Golden Retriever
+                        </td>
+                        <td id="transID_row6">4
+Years old                        </td>
+                        <td id="transtype_row6">Male</td>
+                        <td id="start_row6">Vaccinated</td>
+                        <td id="end_row6">Available</td>
+                    
+                        <td>
+                           <button><input type="button" id="edit_button6" value="edit" class="edit" onclick="edit_row('6')"></button> 
+                            <input type="button" id="save_button6" value="save" class="save" onclick="save_row('6')">
+                            <input type="button" id="delete_button6" value="delete" class="delete" onclick="delete_row('6')">
+                        </td>
+                        </tr>
+
+                        <tr id="row7">
+                            <td id="num_row7">7. Maple
+(Dog)                            </td>
+                            <td id="transaction_row7">chihuahua
+                            </td>
+                            <td id="transID_row7">2
+Years old                            </td>
+                            <td id="transtype_row7">Female
+                            </td>
+                            <td id="start_row7">Vaccinated</td>
+                            <td id="end_row7">Processing</td>
+                        
+                            <td>
+                               <button> <input type="button" id="edit_button7" value="edit" class="edit" onclick="edit_row('7')"></button>
+                                <input type="button" id="save_button7" value="save" class="save" onclick="save_row('7')">
+                                <input type="button" id="delete_button7" value="delete" class="delete" onclick="delete_row('7')">
+                            </td>
+                            </tr>
+
+                            <tr id="row8">
+                                <td id="num_row8">8. Pompom (Dog)
+                                </td>
+                                <td id="transaction_row8">Shih tzu</td>
+                                <td id="transID_row8">4 Years old</td>
+                                <td id="transtype_row8">female</td>
+                                <td id="start_row8">Vaccinated</td>
+                                <td id="end_row8">Available</td>
+                            
+                                <td>
+                                    <button><input type="button" id="edit_button8" value="edit" class="edit" onclick="edit_row('8')"></button>
+                                    <input type="button" id="save_button8" value="save" class="save" onclick="save_row('8')">
+                                    <input type="button" id="delete_button8" value="delete" class="delete" onclick="delete_row('8')">
+                                </td>
+                                </tr>
+
+                                <tr id="row9">
+                                    <td id="num_row9">9. Duke (Dog)</td>
+                                    <td id="transaction_row9">Aspin</td>
+                                    <td id="transID_row9">2 Years old</td>
+                                    <td id="transtype_row9">Male</td>
+                                    <td id="start_row9">Not yet Vaccinated</td>
+                                    <td id="end_row9">Available</td>
+                                
+                                    <td>
+                                        <button><input type="button" id="edit_button9" value="edit" class="edit" onclick="edit_row('9')"></button>
+                                        <input type="button" id="save_button9" value="save" class="save" onclick="save_row('9')">
+                                        <input type="button" id="delete_button9" value="delete" class="delete" onclick="delete_row('9')">
+                                    </td>
+                                    </tr>
+
+                                    
+                                <tr id="row10">
+                                    <td id="num_row10">10. Cupcake (Dog)</td>
+                                    <td id="transaction_row10">Pitbull</td>
+                                    <td id="transID_row10">1 Year Old </td>
+                                    <td id="transtype_row10">Female</td>
+                                    <td id="start_row10">Not yet Vaccinated</td>
+                                    <td id="end_row10">Deseased</td>
+                                
+                                    <td>
+                                        <button><input type="button" id="edit_button10" value="edit" class="edit" onclick="edit_row('10')"></button>
+                                        <input type="button" id="save_button10" value="save" class="save" onclick="save_row('10')">
+                                        <input type="button" id="delete_button10" value="delete" class="delete" onclick="delete_row('10')">
+                                    </td>
+                                    </tr>
+
+<td><input type="text" id="new_num"></td>
+<td><input type="text" id="new_transaction"></td>
+<td><input type="text" id="new_transID"></td>
+<td><input type="text" id="new_transtype"></td>
+<td><input type="text" id="new_start"></td>
+<td><input type="text" id="new_end"></td>
+
+<td><input type="button" id="add_button" class="add" onclick="add_row()" value="Add row"></td>
+   
+</table>
+</div>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
